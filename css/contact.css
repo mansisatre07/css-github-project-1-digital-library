@@ -16,9 +16,9 @@ body {
     width: 400px;
     margin-top: 60px;
     border-radius: 10px;
-    padding-top: 50px;
-   
-    position: sticky;
+    padding-top: 40px;
+
+  
     
   
 }
@@ -76,24 +76,7 @@ body {
     box-shadow:2px 2px 5px 1px gray;
     background-color:#584931 ;
 }
-.images{
-    position:absolute;
-    width: 42px;
-    height:35px ;
-    top:-20px;
-    border-radius:50% ;
- 
 
-}
-.img-1{
-   margin-left: 210px;
-}
-.img-2{
-    margin-left:180px ;
-}
-.img-3{
-    margin-left:150px ;
-}
 .sub-container-2 {
    
     height: 400px;
@@ -105,6 +88,7 @@ body {
 }
 .location{
     width: 17px;
+ 
 
 }
 .sample-page-2{
@@ -127,18 +111,20 @@ body {
 .button-style{
     border-radius:15px ;
     border:none ;
-    background-color:#eee3cd;
+    background-color:#ebe8e2;
     margin-right: 10px;
     padding: 10px;
 }
 .learn-more-button{
     border-radius: 10px;
     border:none ;
-    background-color:#E3D4B9 ;
+    background-color:#ebe8e2;
     margin-top: 10px;
     margin-left: 35px;
     padding: 8px;
 }
+
+
 
 @media (max-width: 768px) {
 
