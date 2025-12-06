@@ -34,7 +34,7 @@ body
     font-size: 13px;
     margin:8px 8 0;
 }
-button {
+.button {
     background-color: #4b3D2D; 
     color:white;
     font-size: 13px;
@@ -43,7 +43,23 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
-button:hover{
+
+.button {
+    background-color: #4b3D2D; 
+    color:white;
+    font-size: 13px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover{
     background-color:#e3b785;
 }
 footer{
