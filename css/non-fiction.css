@@ -32,7 +32,7 @@ body
 }
 .price{
     font-size: 13px;
-    margin:8px  0;
+    margin:8px 8 0;
 }
 .button {
     background-color: #4b3D2D; 
@@ -61,4 +61,10 @@ body
 
 .button:hover{
     background-color:#e3b785;
+}
+footer{
+    margin:0;
+    text-align: center;
+    padding:15px 15px;
+    margin-top:20px;
 }
