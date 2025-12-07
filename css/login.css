@@ -1,13 +1,133 @@
-{
-    margin: 0px;
-    padding: 0px;
-    box-sizing:border-box;
+body {
+    margin: 0;
+    padding: 0;
+   
 }
 
-body{
-    background: #f5f7fa;
+
+.container-login-signup {
+    width: 750px;
+    margin: auto;
+    margin-top: 40px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: stretch;
+    background: #C2B280;
+    border-radius: 15px;
+    border: 1px solid burlywood;
+    gap: 0px;
+}
+
+.container-login-signup:hover {
+    transform: scale(1.02);
+    border: 0.2px solid rgb(99, 91, 56);
+    box-shadow: 0 10px 15px rgba(4, 4, 4, 0.25);
+}
+
+.subcontainer {
+    width: 400px;
+    padding: 30px;
+}
+
+.image-box {
+    margin-bottom: 0px;
+}
+
+.img {
+    border-radius: 0px 15px 15px 0px;
+    height: 450px;
+}
+
+.img-1{
+    border-radius: 0px 15px 15px 0px;
+    height: 480px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+    width: 60%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+}
+
+.login-button {
+    width: 200PX;
+    height: 40PX;
+    padding: 12px;
+    background: #483D2D;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.login-button a {
+color: white;
+text-decoration: none;
+}
+
+.login-button:hover {
+    background: #b5835a;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E3D4B9;
+}
+
+.navbar-main-container {
+    background-color: #4B3D2D;
+    color: white;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    height: 100px;
+    position: sticky;
+    top: 0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.project-name {
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logo {
+    border-radius: 30px;
+}
+
+.nav-links-container {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: white;
+}
+
+.auth-links-container {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .navbar-main-container {
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        padding: 10px 0;
+    }
 }

@@ -1,0 +1,42 @@
+body{
+    background-color: antiquewhite;
+}
+.book-container-2 {
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.book-card-1 {
+    background-color: lightyellow;
+    width: 300px;
+    padding: 10px;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px grey;
+    border: 1px solid gold;
+    height: 250px;
+}
+
+.book-card-1:hover{
+    transform: translateY(-4px);
+}
+
+.confirmed-button {
+    background-color: #4b3D2D;
+    color: white;
+    font-size: 13px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+}
+
+.confirmed-button:hover {
+    background-color: #6b533f;
+}
