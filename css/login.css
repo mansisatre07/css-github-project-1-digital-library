@@ -131,3 +131,61 @@ body {
         padding: 10px 0;
     }
 }
+
+@media (max-width: 768px) {
+
+    /* NAVBAR FIX */
+    .navbar-main-container {
+        display: block;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .navbar-main-container ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* CONTACT FORM BOX FIX */
+    .contact-container {
+        width: 90%;
+        margin: auto;
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+
+    .contact-left,
+    .contact-right {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* FORMS ALIGNMENT FIX */
+    input,
+    textarea {
+        width: 100%;
+    }
+
+    /* SIGNUP PAGE IMAGE + FORM FIX */
+    .signup-main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .signup-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .signup-form {
+        width: 100%;
+        padding: 10px;
+    }
+
+    /* BUTTONS CENTER */
+    button {
+        width: 100%;
+    }
+}
